@@ -1,3 +1,4 @@
+# IDEs
 # Eclipse and STS3 workspace metadata
 .metadata/
 
@@ -8,6 +9,12 @@
 
 # STS3
 .springBeans
+
+# vscode
+.vscode/
+
+# intellij
+.idea/
 
 # Java build output
 bin/
@@ -23,5 +30,4 @@ Servers/
 # OS files
 .DS_Store
 Thumbs.db
-
 
