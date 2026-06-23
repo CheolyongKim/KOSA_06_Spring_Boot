@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+    <header th:fragment="mainHeader" style="background-color: #f8f9fa; padding: 20px; border-bottom: 1px solid #dee2e6;">
+        <nav style="display: flex; justify-content: space-between; align-items: center; max-width: 1000px; margin: 0 auto;">
+            
+            <div class="logo">
+                <a th:href="@{/about}" style="font-size: 22px; font-weight: bold; text-decoration: none; color: #333;">My Portfolio</a>
+            </div>
+            
+            <ul style="list-style: none; display: flex; gap: 30px; margin: 0; padding: 0;">
+                <li>
+                    <a th:href="@{/about}" style="text-decoration: none; color: #495057; font-weight: bold;">자기소개</a>
+                </li>
+                <li>
+                    <a th:href="@{/career}" style="text-decoration: none; color: #495057; font-weight: bold;">경력</a>
+                </li>
+                <li>
+                    <a th:href="@{/location}" style="text-decoration: none; color: #495057; font-weight: bold;">사는 곳</a>
+                </li>
+            </ul>
+            
+        </nav>
+    </header>
+
+</body>
+</html>
